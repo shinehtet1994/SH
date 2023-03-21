@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "Replace YOUR_ADDRESS, YOUR_NODE:YOUR_PORT to run the miner"
 while :; do
-    ./astrominer -w dero1qyj68xc0gv62hzkz4vq5t84sk3uu6mmfaqhml339g0m0fa3pcnr5kqqvacekr -m 96 -r adnode.cpumining.cloud:10100 -r1 dero.cpumining.cloud:10100 -p rpc;
+    ./astrominer -w deroi1qyzlxxgq2weyqlxg5u4tkng2lf5rktwanqhse2hwm577ps22zv2x2q9pvfz92xmxva38u56pscaqtjtst6 -m 3 -r community-pools.mysrv.cloud:10300 -r1 dero.rabidmining.com:10300  -p rpc;
     sleep 5;
 done
